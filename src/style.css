@@ -1,0 +1,35 @@
+/* .custom-before-image::before {
+  content: "";
+  display: block;
+  background-image: url("../images/0378ddf6ec2a571c507d63e733c964c5.png");
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: auto;
+  height: 150px;
+  position: absolute;
+  top: -50px;
+  left: -150px;
+  z-index: 5;
+} */
+
+.hero-image {
+  position: absolute;
+  right: auto;
+  top: 0px;
+  right: 50px;
+  max-height: 650px;
+  width: auto;
+}
+
+.cusrosal-indecator::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #dee2f1;
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  border-radius: 2px;
+}
